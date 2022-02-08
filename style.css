@@ -1,1 +1,28 @@
+/* Grid */
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+  gap: 20px;
+}
+/* Recipes Section */
 
+.recipe-section h2,
+.recipe-section h3 {
+  text-align: center;
+}
+
+.recipe-section img {
+  width: 100%;
+  border-radius: 5%;
+}
+.recipe-card {
+  border: #cccccc solid 1px;
+  border-radius: 5%;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+.recipe-card p {
+  text-align: center;
+}
