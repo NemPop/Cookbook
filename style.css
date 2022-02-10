@@ -154,6 +154,34 @@ footer {
     gap: 20px;
   }
 }
+
+/* Carousel area */
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel img {
+  width: 100%;
+}
+.carousel__container {
+  background-color: #01aaf8;
+  padding: 10px;
+}
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.carousel__items {
+  position: absolute;
+}
+.container.carousel-section {
+  box-shadow: none;
+  border: none;
+}
+
 /* Dea single recipe */
 .container {
   border: solid 1px rgb(155, 153, 151);
