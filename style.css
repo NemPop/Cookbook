@@ -149,3 +149,53 @@ footer {
     gap: 20px;
   }
 }
+/* Dea single recipe */
+.container {
+  border: solid 1px rgb(155, 153, 151);
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 2px 0px rgba(69, 69, 69, 0.75);
+}
+
+.form-check {
+  font-size: 18px;
+  margin: 0 50px;
+}
+
+.input-group-text h4 {
+  text-align: left;
+}
+
+.d-flex {
+  display: flex;
+  margin: 70px 0;
+}
+
+.input-group-prepend {
+  display: flex;
+}
+.img-fluid {
+  padding: 20px 0;
+  padding-left: 50px;
+  border-radius: 7%;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  padding: 0px;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  padding: 50px;
+}
+.paragraph {
+  font-size: 18px;
+  margin: 0 50px;
+}
+h4 {
+  padding-bottom: 30px;
+}
+/* Dea single recipe */
