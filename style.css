@@ -1,3 +1,13 @@
+
+/* Grid */
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+  gap: 20px;
+}
+/* Net Navbar */
 .nav{
     height: 15%;
     align-items: center;
@@ -85,3 +95,35 @@ footer{
     margin-left: 15px
 }
 
+/* Recipe Section */
+.recipe-section h2,
+.recipe-section h3 {
+  text-align: center;
+}
+
+.recipe-section img {
+  width: 100%;
+  border-radius: 5%;
+}
+.recipe-card {
+  border: #cccccc solid 1px;
+  border-radius: 5%;
+  padding: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.recipe-card:hover {
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+.recipe-card p {
+  text-align: center;
+}
+
+.recipe-section h2 {
+  margin-bottom: 2rem;
+}
+.card-difficulty img {
+  width: auto;
+  margin: auto;
+}
