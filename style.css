@@ -132,6 +132,7 @@ footer {
 .container.recipe-section {
   box-shadow: none;
   border: none;
+  margin-top: 4rem;
 }
 /* media queries */
 
